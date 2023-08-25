@@ -1,0 +1,131 @@
+/*  &display=swap&subset=cirillic-ext  */
+
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-RegularIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-RegularIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Обнуление стилей*/
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a, 
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, 
+h2, 
+h3,
+h4, 
+h5, 
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html {
+    font-size: 20px;
+}
+h1 {
+    font-size: 2rem;
+    color:ghostwhite;
+    text-shadow: 0 0 5px black;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.3rem;
+}
+.text-up, h3 {
+    text-transform: uppercase;
+}
+
+body {
+    font-family: ProximaNova-Regular, sans-serif;
+    line-height: 1;
+}
+
+
+
+/* -------------------------------- */
+
+
+
+a {
+    color:rgb(251, 251, 251);
+    text-shadow: 0px 0px 5px rgb(255, 0, 0);
+    text-decoration: underline;
+}
+p {
+    color:white;
+    text-shadow: 0 0 7px rgb(0, 0, 0);
+    text-align:justify; 
+    text-indent: 2rem;
+}
+
+h2, h3 {
+    color:yellow;
+    text-shadow: 0 0 10px #000;
+}
+

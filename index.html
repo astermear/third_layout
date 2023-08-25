@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+    <h1>Uncovering StarkNet: Scalability and Beyond</h1>
+   </header>
+   <nav>
+    <h3>
+        Contents
+    </h3>
+    <ul class="text-up link">
+        <li>
+            <a href="#h1">What is StarkNet and how does it work?</a>
+        </li>
+        <li>
+            <a href="#h2">Foundations of StarkNet</a>
+            <ul>
+                <li>
+                    <a href="#h2-1">WHAT ARE STARK PROVERS?</a>
+                </li>
+                <li>
+                    <a href="#h2-2">WHAT IS STARKEX?</a>
+                </li>
+                <li>
+                    <a href="#h2-3">WHAT IS CAIRO?</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#h3">What are the Fundamental Advantages of StarkNet?</a>
+            <ul>
+                <li>
+                    <a href="#h3-1">SCALABILITY</a>
+                </li>
+                <li>
+                    <a href="#h3-2">LOW GAS FEES</a>
+                </li>
+                <li>
+                    <a href="#h3-3">ENHANCED SECURITY</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#h4">The Future of Starkware</a>
+        </li>
+        <li>
+            <a href="#h5">Closing Words</a>
+        </li>
+    </ul>
+   </nav>
+   <main>
+
+    <p>
+        TWith an alpha mainnet launch in November 2021 that saw over 50 million transactions on its testnet and received raving reviews on its composability and transaction abilities, StarkNet could be seen as one of the leading ZK-rollups in the market right now. StarkWare, the company behind the project, announced further plans in 2022 to further decentralize the software as well as introducing plans to launch a StarkNet token.
+    </p>
+
+    <h2 id="h1">What is StarkNet and how does it work? </h2>
+
+    <p>
+        In essence, StarkNet is a permissionless decentralized zk (zero-knowledge) rollup that offers scalable solutions for users within a secure Ethereum-like state. It fundamentally operates as an L2 (layer-2) network over the Ethereum blockchain and allows any DApp (decentralized application) to achieve unlimited scale for its computation without compromising security and composability.
+    </p>
+    <p>
+        In terms of scalability, StarkNet leverages upon its Stark Provers to prove large volumes of transactions. For context, Stark Provers were able to prove 300,000 transactions in a single proof back in 2020, which was a record-breaking number of proofs at the time.
+    </p>
+
+    <h2 id="h2">Foundations of StarkNet</h2>
+
+    <p>
+        StarkNet largely relies upon three foundations: Cairo, Stark Provers, and StarkEx. They provide the underlying technology for secure and efficient decentralized transactions and smart contracts. Let’s have a quick look at these three foundations are participating in StarkNet.
+    </p>
+
+    <img src="img/image-1.png" alt="Starknet Foundations" width="1000">
+
+    <h3 id="h2-1">WHAT ARE STARK PROVERS?</h3>
+
+    <p>
+        Stark Provers, or zk-STARKs, are an element towards the generation of cryptographic proofs. In essence, zk-STARKs, which operate in the Cairo programming language, ensure that the cryptographic proof that is sent to the verifer reveals no information about the exact transactions that entered the system. Instead, all the information available is within the final CI statement as opposed to the proof that is sent to the verifier.
+    </p>
+    <p>
+        In addition to privacy, zk-STARKs also provide scalability by allowing for the aggregation of many transactions into a single proof. This means that instead of verifying each transaction separately, they can all be verified together in a single proof, which reduces the computational load and improves efficiency. Of course, Stark Proofs are written in Cairo, and boasts reliable cryptography in itself. 
+    </p>
+    <p>
+        StarkNet uses zk-rollups, which combines off-chain processing with on-chain verification using zk-STARKs. This allows for batch verification of many transactions in a single cryptographic proof, which significantly improves scalability.
+    </p>
+
+    <h3 id="h2-2">WHAT IS STARKEX?</h3>
+
+    <p>
+        Tailored specifically for DApps that wish to leverage upon the scalability solutions on StarkNet and ZK-Starks, <a href="https://dashboard.starkware.co/starkex">StarkEx</a> is an application-specific scalability engine built on the Ethereum blockchain.
+    </p>
+    <p>
+        StarkEx aims to solve the scalability issues that plague DEXs, such as slow transaction processing times and high gas fees. It does this by leveraging off-chain computation and batching transactions together to reduce the load on the Ethereum network.
+    </p>
+    <p>
+        StarkEx uses a technology called zk-STARKs (Zero-Knowledge Succinct Transparent Argument of Knowledge) to enable off-chain computation without sacrificing the security and trustlessness of the Ethereum blockchain.
+    </p>
+
+    <h3 id="h2-3">WHAT IS CAIRO?</h3>
+
+    <p>
+        The Cairo programming language is a high-level programming language designed specifically for writing smart contracts on the StarkNet blockchain platform, and is designed to be a secure and efficient language for writing smart contracts on StarkNet. 
+    </p>
+    <p>
+        In tandem with StarkNet’s zero-knowledge proof system, Cairo is specifically designed to serve as a programming language that is highly secure and efficient in writing smart contracts that can operate on StarkNet.
+    </p>
+
+    <h2 id="h3">What are the Fundamental Advantages of StarkNet?</h2>
+
+    <p>
+        StarkNet offers several fundamental advantages over other blockchain platforms, which we will be exploring further.
+    </p>
+
+    <h3 id="h3-1">SCALABILITY</h3>
+
+    <p>
+        Currently, over 3,000 DApps are built on Ethereum, and the chain also powers the most number of NFT projects and their associated transactions.
+    </p>
+    <p>
+        The significant reliance on the Ethereum L1 chain has led to capability limitations and notably, network congestion as well, which results in delays in processing transactions for users interacting with DApps and projects built on Ethereum. 
+    </p>
+    <p>
+        With the power of StarkNet’s zk-STARKs, the platform is able to offer high scalability solutions for applications on the Ethereum L1 chain by processing transactions off-chain, which reduces the burden on the Ethereum mainnet. This means that more transactions can be processed at a faster rate, which is essential for applications that require high throughput.
+    </p>
+
+    <h3 id="h3-2">LOW GAS FEES</h3>
+
+    <p>
+        Transactions on the Ethereum mainnet can also be expensive due to high gas fees alongside delayed transaction times. StarkNet offers a more cost-efficient alternative by using zero-knowledge proofs to batch transactions and minimize gas fees. This means that developers can build and deploy decentralized applications on StarkNet at a lower cost.
+    </p>
+
+    <h3 id="h3-3">ENHANCED SECURITY</h3>
+
+    <p>
+        StarkNet’s zero-knowledge proof system also offers a high level of privacy and security for transactions on the platform. This means that sensitive information about transactions and the parties involved can be kept private, which is important for applications that require a high level of confidentiality.
+    </p>
+
+    <h2 id="h4">The Future of Starkware</h2>
+
+    <p>
+        While the STARK deck comprising of StarkNet, Cairo, StarkEx, zk-STARKs promises intriguing potential for both developers and users alike, it is important to bear in mind that builders wanting to take their project on StarkNet are required to first master the Cairo programming language. Nevertheless, the Stark rollup still enables any decentralized application to reach an infinite computational scale while maintaining the security and stability of the Ethereum network, promising the first step towards the global adoption of blockchain technology.
+    </p>
+    <p>
+        To build towards this goal, StarkWare is also continuing its efforts to further decentralize, primarily through the introduction of its up-and-coming StarkNet Token and the Stark Foundation. The former serves not only as a way to compensate builders on the Stark ecosystem, it also serves as a governance token needed to maintain and secure the ecosystem and decide on its values and strategic goals, and direct its evolution.
+    </p>
+    <p>
+        The Stark Foundation, on the other hand, will encourage the development of bottom-up mechanisms for community decision-making on essential technological questions, such as protocol updates, dispute resolution, and public goods funding. Both these initiatives are part of StarkWare’s plans to further decentralize itself, evolving into an iteration of a public good similar to that of Ethereum or the Internet.
+    </p>
+    <p>
+        StarkWare has also released plans for Cairo 1.0, an upgraded version of the Cairo programming language that will be more user-friendly to developers trained in different languages, in order to further incentivize builders to bring their projects on to StarkNet.
+    </p>
+
+    <h2 id="h5">Closing Words</h2>
+
+    <p>
+        In a similar vein, Bitget Wallet (Previously Bitget Wallet (Previously BitKeep)) also values this ethos of decentralization by serving as the single largest non-custodial Web3 multi-chain crypto wallet in Asia. Thanks to its superior security, ease of use, and inclusiveness, Bitget Wallet (Previously Bitget Wallet (Previously BitKeep)) Wallet has become a long-favored solution for more than 8 million users worldwide, covering 168 countries in North America, Europe, and Asia. Bitget Wallet (Previously Bitget Wallet (Previously BitKeep)) currently supports over 250,000 types of cryptocurrencies across over 80 chains, including major ones such as Bitcoin, Ethereum, Polygon, BNB Chain, Fantom, and Solana, and has plans to continue working with promising projects in the future, such as StarkNet, to bring the world of decentralization to its users.
+    </p>
+
+    <h3>Related Articles</h3>
+
+    <div class="text-up link">
+        <p>
+            <a href="https://study.bitkeep.com/en/?ht_kb=uncovering-starknet-grasping-starkex">Uncovering StarkNet: Grasping StarkEx</a>
+        </p>
+        <p>
+            <a href="https://study.bitkeep.com/en/?ht_kb=uncovering-starknet-understanding-cairo">Uncovering StarkNet: Understanding Cairo</a>
+        </p>
+    </div>
+
+   </main>
+   <footer></footer>
+</body>
+</html>
